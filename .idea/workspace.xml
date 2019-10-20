@@ -2,19 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bcc03b72-1416-4c9a-9322-034008a9d363" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EfficientMarkov-fall19.iml" beforeDir="false" afterPath="$PROJECT_DIR$/EfficientMarkov-fall19.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EfficientMarkov-fall19/BaseMarkov.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EfficientMarkov-fall19/BaseMarkov.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EfficientMarkov-fall19/BaseWordMarkov.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EfficientMarkov-fall19/BaseWordMarkov.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/EfficientMarkov-fall19/Benchmark.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EfficientMarkov-fall19/Benchmark.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/EfficientMarkov-fall19/EfficientMarkov.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EfficientMarkov-fall19/EfficientMarkov.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/EfficientMarkov-fall19/MarkovDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EfficientMarkov-fall19/MarkovDriver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EfficientMarkov-fall19/MarkovInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EfficientMarkov-fall19/MarkovInterface.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EfficientMarkov-fall19/MarkovTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EfficientMarkov-fall19/MarkovTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EfficientMarkov-fall19/TextSource.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EfficientMarkov-fall19/TextSource.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EfficientMarkov-fall19/WordGram.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EfficientMarkov-fall19/WordGram.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Benchmark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Benchmark.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/EfficientMarkov.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EfficientMarkov.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EfficientWordMarkov.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EfficientWordMarkov.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MarkovDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MarkovDriver.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -63,6 +57,13 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.MarkovDriver">
+    <configuration name="Benchmark" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Benchmark" />
+      <module name="EfficientMarkov-fall19" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MarkovDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MarkovDriver" />
       <module name="EfficientMarkov-fall19" />
@@ -84,6 +85,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.MarkovDriver" />
+        <item itemvalue="Application.Benchmark" />
         <item itemvalue="JUnit.MarkovTest" />
       </list>
     </recent_temporary>

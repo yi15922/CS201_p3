@@ -44,7 +44,7 @@ public class MarkovDriver {
 		MarkovInterface<String> efficient = new EfficientMarkov();
 		MarkovInterface<WordGram> wmm = new BaseWordMarkov();
 		MarkovInterface<WordGram> ewm = new EfficientWordMarkov();
-		//markovGenerate(standard, text);
+		//markovGenerate(efficient, text);
 		markovGenerate(wmm,text);
 		markovGenerate(ewm, text);
 	}

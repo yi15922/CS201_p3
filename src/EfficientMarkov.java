@@ -21,7 +21,13 @@ public class EfficientMarkov extends BaseMarkov {
 			String theGram = myText.substring(i, i+myOrder);
 			//System.out.println(theGram + " " + myMap.get(theGram));
 			myMap.putIfAbsent(theGram, new ArrayList<>());
-			myMap.get(theGram).add(myText.substring(i+myOrder, i+myOrder+1));
+
+			if (i+myOrder+1 >= myText.length()) {
+				//System.out.println("Found end with " + theGram);
+				myMap.get(theGram).add(PSEUDO_EOS);
+				break;
+			}
+			myMap.get(theGram).add(String.valueOf(myText.charAt(i+myOrder)));
 		}
 	}
 
