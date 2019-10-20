@@ -27,12 +27,12 @@ public class EfficientWordMarkov extends BaseWordMarkov{
             //System.out.println(theGram + " " + myMap.get(theGram));
             myMap.putIfAbsent(theGram, new ArrayList<>());
             if (i+myOrder >= myWords.length) {
-                System.out.println("Found end with " + theGram);
+                //System.out.println("Found end with " + theGram);
                 myMap.get(theGram).add(PSEUDO_EOS);
                 break;
             }
-            myMap.get(theGram).add(myWords[i+1]);
-            theGram = theGram.shiftAdd(myWords[i+1]);
+            myMap.get(theGram).add(myWords[i]);
+            theGram = theGram.shiftAdd(myWords[i]);
         }
     }
 
