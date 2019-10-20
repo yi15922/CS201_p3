@@ -17,7 +17,7 @@ public class EfficientMarkov extends BaseMarkov {
 		myText = text;
 		myMap.clear();
 
-		for (int i = 0; i < myText.length() - myOrder; i++){
+		for (int i = 0; i < myText.length(); i++){
 			String theGram = myText.substring(i, i+myOrder);
 			//System.out.println(theGram + " " + myMap.get(theGram));
 			myMap.putIfAbsent(theGram, new ArrayList<>());
