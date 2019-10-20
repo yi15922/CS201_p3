@@ -31,8 +31,8 @@ public class EfficientWordMarkov extends BaseWordMarkov{
                 myMap.get(theGram).add(PSEUDO_EOS);
                 break;
             }
-            myMap.get(theGram).add(myWords[i]);
-            theGram = theGram.shiftAdd(myWords[i]);
+            myMap.get(theGram).add(myWords[i+myOrder]);
+            theGram = theGram.shiftAdd(myWords[i+myOrder]);
         }
     }
 

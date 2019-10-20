@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="bcc03b72-1416-4c9a-9322-034008a9d363" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EfficientMarkov-fall19/MarkovDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EfficientMarkov-fall19/MarkovDriver.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/EfficientWordMarkov.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EfficientWordMarkov.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MarkovDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MarkovDriver.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
