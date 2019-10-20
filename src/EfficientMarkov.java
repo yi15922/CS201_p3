@@ -22,7 +22,7 @@ public class EfficientMarkov extends BaseMarkov {
 			//System.out.println(theGram + " " + myMap.get(theGram));
 			myMap.putIfAbsent(theGram, new ArrayList<>());
 
-			if (i+myOrder+1 >= myText.length()) {
+			if (i+myOrder >= myText.length()) {
 				//System.out.println("Found end with " + theGram);
 				myMap.get(theGram).add(PSEUDO_EOS);
 				break;
