@@ -23,7 +23,7 @@ public class EfficientWordMarkov extends BaseWordMarkov{
         WordGram theGram = new WordGram(myWords, 0, myOrder);
 
 
-        for (int i = 1; i < myWords.length; i++){
+        for (int i = 0; i < myWords.length; i++){
             //System.out.println(theGram + " " + myMap.get(theGram));
             myMap.putIfAbsent(theGram, new ArrayList<>());
             if (i+myOrder >= myWords.length) {
